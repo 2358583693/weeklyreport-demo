@@ -15,7 +15,7 @@ ZHIPU_API_KEY = os.getenv("API_KEY")
 EMAIL_ACCOUNT = os.getenv("EMAIL_ACCOUNT")
 EMAIL_AUTH_CODE = os.getenv("EMAIL_AUTH_CODE")
 SMTP_SERVER = os.getenv("SMTP_SERVER")
-SMTP_PORT = int(os.getenv("SMTP_PORT"))
+SMTP_PORT = int(os.getenv("SMTP_PORT","465"))
 TARGET_EMAIL = os.getenv("TARGET_EMAIL")
 
 # 请求体
