@@ -2,4 +2,4 @@ fastapi
 uvicorn
 requests
 python-dotenv
-duckduckgo_search
+duckduckgo-search
