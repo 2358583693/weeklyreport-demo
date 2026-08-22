@@ -80,6 +80,7 @@ def agent_run(user_input:str,industry:str):
             json=payload,timeout=60
         )
         data = resp.json()
+        print("大模型完整返回=",data)
         choice = data["choices"][0]
         finish_reason = choice["finish_reason"]
         ai_msg = choice["message"]
