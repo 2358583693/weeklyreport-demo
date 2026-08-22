@@ -1,0 +1,40 @@
+# 环境变量密钥，绝对不能上传
+.env
+.env.local
+.env.production
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Chroma 向量数据库
+chroma_db/
+
+# 本地输出文件
+output.txt
+*.log
+
+# VSCode 配置
+.vscode/
+.idea/
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
