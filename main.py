@@ -103,7 +103,7 @@ def agent_run(user_input:str,industry:str):
     return "达到最大循环次数，周报生成终止"
 
 #接口
-@aoo.post("/")
+@app.get("/")
 async def root():
     return RedirectResponse(url="/docs")
 @app.post("/weekly_report")
